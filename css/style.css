@@ -1,0 +1,45 @@
+button {
+  background: orange;
+  color: white;
+  padding: 20px;
+  border: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  transition: transform 0.4s ease-in-out;
+}
+nav {
+  background: orange;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 15px 5px;
+  margin: 0;
+  height: 20vh;
+  transform: translatex(100%);
+  transition: transform 0.4s ease-in-out;
+}
+nav.active {
+  transform: translatex(0);
+}
+button.active {
+  transform: translatex(-100px);
+}
+
+nav ul li {
+  padding: 5px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+h1 {
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+  margin-top: 200px;
+}
